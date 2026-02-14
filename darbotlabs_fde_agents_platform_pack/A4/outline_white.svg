@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+
+<path d="M512,96 C740,96 880,250 880,430 L880,720 C880,782 836,816 792,816 C750,816 708,792 666,792 C624,792 584,818 540,818 C496,818 456,792 414,792 C372,792 330,816 288,816 C244,816 200,782 200,720 L200,430 C200,250 284,96 512,96 Z" fill="none" stroke="#FFFFFF" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="512" y="512" text-anchor="middle" dominant-baseline="central" font-family="Inter, Manrope, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="360" font-weight="900" letter-spacing="-20" fill="#FFFFFF">A4</text>
+</svg>

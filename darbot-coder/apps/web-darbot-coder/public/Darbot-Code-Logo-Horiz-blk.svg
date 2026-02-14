@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600">
+  <defs>
+    <style>
+      .line { fill:none; stroke:#000000; stroke-width:28; stroke-linecap:round; stroke-linejoin:round; }
+      .txt1 { fill:#000000; font-family:"JetBrains Mono","IBM Plex Mono","DejaVu Sans Mono",monospace; font-size:220px; font-weight:700; letter-spacing:2px; }
+      .txt2 { fill:#000000; font-family:"JetBrains Mono","IBM Plex Mono","DejaVu Sans Mono",monospace; font-size:160px; font-weight:600; letter-spacing:2px; }
+    </style>
+  </defs>
+  <!-- icon left -->
+  <g transform="translate(40,40) scale(0.9)">
+    <path class="line" d="M 120 220 Q 360 60 600 220 L 600 420 C 570 410 548 510 496 510 C 446 510 418 440 360 440 C 302 440 274 510 224 510 C 172 510 150 410 120 420 Z"/>
+    <path class="line" d="M 210 300 L 310 300"/>
+    <path class="line" d="M 410 300 L 510 300"/>
+    <rect x="290" y="360" width="220" height="150" rx="22" ry="22" class="line"/>
+    <path class="line" d="M 340 430 L 390 380 M 340 430 L 390 480"/>
+    <path class="line" d="M 420 480 L 470 480"/>
+  </g>
+  <!-- wordmark right -->
+  <text x="760" y="260" class="txt1">darbot</text>
+  <text x="760" y="460" class="txt2">coder</text>
+</svg>

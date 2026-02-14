@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="grad-11157e8a" x1="0.14644660940672627" y1="0.14644660940672627" x2="0.8535533905932737" y2="0.8535533905932737">
+      <stop offset="0%" stop-color="#FF4ECD"/><stop offset="50%" stop-color="#7A5CFF"/><stop offset="100%" stop-color="#3AE9FF"/>
+    </linearGradient>
+    <linearGradient id="text-a83b5104" x1="0.8535533905932737" y1="0.8535533905932737" x2="0.14644660940672627" y2="0.14644660940672627">
+      <stop offset="0%" stop-color="#FF4ECD"/><stop offset="50%" stop-color="#7A5CFF"/><stop offset="100%" stop-color="#3AE9FF"/>
+    </linearGradient>
+    <filter id="glow-80bb6dfc" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1024" height="1024" fill="#0B0B12"/>
+
+  <!-- Ghostframe outline -->
+  <g filter="url(#glow-80bb6dfc)" >
+    <path d="M512,96 C740,96 880,250 880,430 L880,720 C880,782 836,816 792,816 C750,816 708,792 666,792 C624,792 584,818 540,818 C496,818 456,792 414,792 C372,792 330,816 288,816 C244,816 200,782 200,720 L200,430 C200,250 284,96 512,96 Z" fill="none" stroke="url(#grad-11157e8a)" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Agent code -->
+  <text x="512" y="512" text-anchor="middle" dominant-baseline="central"
+        font-family="Inter, Manrope, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+        font-size="300" font-weight="800" letter-spacing="-10"
+        fill="url(#text-a83b5104)">A2</text>
+</svg>

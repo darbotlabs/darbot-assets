@@ -1,0 +1,562 @@
+{
+  "generated_at": 1756175012,
+  "profile": "darbotlabs.style.ghostframe-neon.v1",
+  "platforms": {
+    "teams": {
+      "color": 192,
+      "outline": 32
+    },
+    "power_platform": {
+      "icon32": 32,
+      "icon128": 128
+    },
+    "windows": {
+      "ico_sizes": [
+        16,
+        24,
+        32,
+        48,
+        64,
+        128,
+        256
+      ]
+    },
+    "web": {
+      "favicon": [
+        16,
+        32
+      ],
+      "pwa": [
+        192,
+        512
+      ]
+    }
+  },
+  "agents": {
+    "A1": {
+      "masters": [
+        "neon_transparent.svg",
+        "neon_darkchip.svg",
+        "outline_white.svg",
+        "outline_black.svg"
+      ],
+      "png": {
+        "neon": [
+          "png/neon_16.png",
+          "png/neon_20.png",
+          "png/neon_24.png",
+          "png/neon_32.png",
+          "png/neon_40.png",
+          "png/neon_48.png",
+          "png/neon_64.png",
+          "png/neon_80.png",
+          "png/neon_96.png",
+          "png/neon_128.png",
+          "png/neon_144.png",
+          "png/neon_192.png",
+          "png/neon_256.png",
+          "png/neon_384.png",
+          "png/neon_512.png",
+          "png/neon_768.png",
+          "png/neon_1024.png"
+        ],
+        "outline_white": [
+          "png/outline_white_16.png",
+          "png/outline_white_20.png",
+          "png/outline_white_24.png",
+          "png/outline_white_32.png",
+          "png/outline_white_40.png",
+          "png/outline_white_48.png",
+          "png/outline_white_64.png",
+          "png/outline_white_80.png",
+          "png/outline_white_96.png",
+          "png/outline_white_128.png",
+          "png/outline_white_144.png",
+          "png/outline_white_192.png",
+          "png/outline_white_256.png",
+          "png/outline_white_384.png",
+          "png/outline_white_512.png",
+          "png/outline_white_768.png",
+          "png/outline_white_1024.png"
+        ],
+        "outline_black": [
+          "png/outline_black_16.png",
+          "png/outline_black_20.png",
+          "png/outline_black_24.png",
+          "png/outline_black_32.png",
+          "png/outline_black_40.png",
+          "png/outline_black_48.png",
+          "png/outline_black_64.png",
+          "png/outline_black_80.png",
+          "png/outline_black_96.png",
+          "png/outline_black_128.png",
+          "png/outline_black_144.png",
+          "png/outline_black_192.png",
+          "png/outline_black_256.png",
+          "png/outline_black_384.png",
+          "png/outline_black_512.png",
+          "png/outline_black_768.png",
+          "png/outline_black_1024.png"
+        ],
+        "neon_dark": [
+          "png/neon_dark_128.png",
+          "png/neon_dark_192.png",
+          "png/neon_dark_256.png",
+          "png/neon_dark_512.png",
+          "png/neon_dark_1024.png"
+        ]
+      },
+      "platform": {
+        "teams": [
+          "platform/teams_color_192.png",
+          "platform/teams_outline_32.png"
+        ],
+        "power_platform": [
+          "platform/power_icon_32.png",
+          "platform/power_icon_128.png"
+        ],
+        "web": [
+          "platform/web/favicon.ico",
+          "platform/web/favicon-16.png",
+          "platform/web/favicon-32.png",
+          "platform/web/pwa-192.png",
+          "platform/web/pwa-512.png"
+        ],
+        "windows": [
+          "platform/windows_app.ico",
+          "platform/windows/win-16.png",
+          "platform/windows/win-24.png",
+          "platform/windows/win-32.png",
+          "platform/windows/win-48.png",
+          "platform/windows/win-64.png",
+          "platform/windows/win-128.png",
+          "platform/windows/win-256.png"
+        ],
+        "print": [
+          "print/neon_darkchip.pdf",
+          "print/mono_black_white.pdf"
+        ]
+      }
+    },
+    "A2": {
+      "masters": [
+        "neon_transparent.svg",
+        "neon_darkchip.svg",
+        "outline_white.svg",
+        "outline_black.svg"
+      ],
+      "png": {
+        "neon": [
+          "png/neon_16.png",
+          "png/neon_20.png",
+          "png/neon_24.png",
+          "png/neon_32.png",
+          "png/neon_40.png",
+          "png/neon_48.png",
+          "png/neon_64.png",
+          "png/neon_80.png",
+          "png/neon_96.png",
+          "png/neon_128.png",
+          "png/neon_144.png",
+          "png/neon_192.png",
+          "png/neon_256.png",
+          "png/neon_384.png",
+          "png/neon_512.png",
+          "png/neon_768.png",
+          "png/neon_1024.png"
+        ],
+        "outline_white": [
+          "png/outline_white_16.png",
+          "png/outline_white_20.png",
+          "png/outline_white_24.png",
+          "png/outline_white_32.png",
+          "png/outline_white_40.png",
+          "png/outline_white_48.png",
+          "png/outline_white_64.png",
+          "png/outline_white_80.png",
+          "png/outline_white_96.png",
+          "png/outline_white_128.png",
+          "png/outline_white_144.png",
+          "png/outline_white_192.png",
+          "png/outline_white_256.png",
+          "png/outline_white_384.png",
+          "png/outline_white_512.png",
+          "png/outline_white_768.png",
+          "png/outline_white_1024.png"
+        ],
+        "outline_black": [
+          "png/outline_black_16.png",
+          "png/outline_black_20.png",
+          "png/outline_black_24.png",
+          "png/outline_black_32.png",
+          "png/outline_black_40.png",
+          "png/outline_black_48.png",
+          "png/outline_black_64.png",
+          "png/outline_black_80.png",
+          "png/outline_black_96.png",
+          "png/outline_black_128.png",
+          "png/outline_black_144.png",
+          "png/outline_black_192.png",
+          "png/outline_black_256.png",
+          "png/outline_black_384.png",
+          "png/outline_black_512.png",
+          "png/outline_black_768.png",
+          "png/outline_black_1024.png"
+        ],
+        "neon_dark": [
+          "png/neon_dark_128.png",
+          "png/neon_dark_192.png",
+          "png/neon_dark_256.png",
+          "png/neon_dark_512.png",
+          "png/neon_dark_1024.png"
+        ]
+      },
+      "platform": {
+        "teams": [
+          "platform/teams_color_192.png",
+          "platform/teams_outline_32.png"
+        ],
+        "power_platform": [
+          "platform/power_icon_32.png",
+          "platform/power_icon_128.png"
+        ],
+        "web": [
+          "platform/web/favicon.ico",
+          "platform/web/favicon-16.png",
+          "platform/web/favicon-32.png",
+          "platform/web/pwa-192.png",
+          "platform/web/pwa-512.png"
+        ],
+        "windows": [
+          "platform/windows_app.ico",
+          "platform/windows/win-16.png",
+          "platform/windows/win-24.png",
+          "platform/windows/win-32.png",
+          "platform/windows/win-48.png",
+          "platform/windows/win-64.png",
+          "platform/windows/win-128.png",
+          "platform/windows/win-256.png"
+        ],
+        "print": [
+          "print/neon_darkchip.pdf",
+          "print/mono_black_white.pdf"
+        ]
+      }
+    },
+    "A3": {
+      "masters": [
+        "neon_transparent.svg",
+        "neon_darkchip.svg",
+        "outline_white.svg",
+        "outline_black.svg"
+      ],
+      "png": {
+        "neon": [
+          "png/neon_16.png",
+          "png/neon_20.png",
+          "png/neon_24.png",
+          "png/neon_32.png",
+          "png/neon_40.png",
+          "png/neon_48.png",
+          "png/neon_64.png",
+          "png/neon_80.png",
+          "png/neon_96.png",
+          "png/neon_128.png",
+          "png/neon_144.png",
+          "png/neon_192.png",
+          "png/neon_256.png",
+          "png/neon_384.png",
+          "png/neon_512.png",
+          "png/neon_768.png",
+          "png/neon_1024.png"
+        ],
+        "outline_white": [
+          "png/outline_white_16.png",
+          "png/outline_white_20.png",
+          "png/outline_white_24.png",
+          "png/outline_white_32.png",
+          "png/outline_white_40.png",
+          "png/outline_white_48.png",
+          "png/outline_white_64.png",
+          "png/outline_white_80.png",
+          "png/outline_white_96.png",
+          "png/outline_white_128.png",
+          "png/outline_white_144.png",
+          "png/outline_white_192.png",
+          "png/outline_white_256.png",
+          "png/outline_white_384.png",
+          "png/outline_white_512.png",
+          "png/outline_white_768.png",
+          "png/outline_white_1024.png"
+        ],
+        "outline_black": [
+          "png/outline_black_16.png",
+          "png/outline_black_20.png",
+          "png/outline_black_24.png",
+          "png/outline_black_32.png",
+          "png/outline_black_40.png",
+          "png/outline_black_48.png",
+          "png/outline_black_64.png",
+          "png/outline_black_80.png",
+          "png/outline_black_96.png",
+          "png/outline_black_128.png",
+          "png/outline_black_144.png",
+          "png/outline_black_192.png",
+          "png/outline_black_256.png",
+          "png/outline_black_384.png",
+          "png/outline_black_512.png",
+          "png/outline_black_768.png",
+          "png/outline_black_1024.png"
+        ],
+        "neon_dark": [
+          "png/neon_dark_128.png",
+          "png/neon_dark_192.png",
+          "png/neon_dark_256.png",
+          "png/neon_dark_512.png",
+          "png/neon_dark_1024.png"
+        ]
+      },
+      "platform": {
+        "teams": [
+          "platform/teams_color_192.png",
+          "platform/teams_outline_32.png"
+        ],
+        "power_platform": [
+          "platform/power_icon_32.png",
+          "platform/power_icon_128.png"
+        ],
+        "web": [
+          "platform/web/favicon.ico",
+          "platform/web/favicon-16.png",
+          "platform/web/favicon-32.png",
+          "platform/web/pwa-192.png",
+          "platform/web/pwa-512.png"
+        ],
+        "windows": [
+          "platform/windows_app.ico",
+          "platform/windows/win-16.png",
+          "platform/windows/win-24.png",
+          "platform/windows/win-32.png",
+          "platform/windows/win-48.png",
+          "platform/windows/win-64.png",
+          "platform/windows/win-128.png",
+          "platform/windows/win-256.png"
+        ],
+        "print": [
+          "print/neon_darkchip.pdf",
+          "print/mono_black_white.pdf"
+        ]
+      }
+    },
+    "A4": {
+      "masters": [
+        "neon_transparent.svg",
+        "neon_darkchip.svg",
+        "outline_white.svg",
+        "outline_black.svg"
+      ],
+      "png": {
+        "neon": [
+          "png/neon_16.png",
+          "png/neon_20.png",
+          "png/neon_24.png",
+          "png/neon_32.png",
+          "png/neon_40.png",
+          "png/neon_48.png",
+          "png/neon_64.png",
+          "png/neon_80.png",
+          "png/neon_96.png",
+          "png/neon_128.png",
+          "png/neon_144.png",
+          "png/neon_192.png",
+          "png/neon_256.png",
+          "png/neon_384.png",
+          "png/neon_512.png",
+          "png/neon_768.png",
+          "png/neon_1024.png"
+        ],
+        "outline_white": [
+          "png/outline_white_16.png",
+          "png/outline_white_20.png",
+          "png/outline_white_24.png",
+          "png/outline_white_32.png",
+          "png/outline_white_40.png",
+          "png/outline_white_48.png",
+          "png/outline_white_64.png",
+          "png/outline_white_80.png",
+          "png/outline_white_96.png",
+          "png/outline_white_128.png",
+          "png/outline_white_144.png",
+          "png/outline_white_192.png",
+          "png/outline_white_256.png",
+          "png/outline_white_384.png",
+          "png/outline_white_512.png",
+          "png/outline_white_768.png",
+          "png/outline_white_1024.png"
+        ],
+        "outline_black": [
+          "png/outline_black_16.png",
+          "png/outline_black_20.png",
+          "png/outline_black_24.png",
+          "png/outline_black_32.png",
+          "png/outline_black_40.png",
+          "png/outline_black_48.png",
+          "png/outline_black_64.png",
+          "png/outline_black_80.png",
+          "png/outline_black_96.png",
+          "png/outline_black_128.png",
+          "png/outline_black_144.png",
+          "png/outline_black_192.png",
+          "png/outline_black_256.png",
+          "png/outline_black_384.png",
+          "png/outline_black_512.png",
+          "png/outline_black_768.png",
+          "png/outline_black_1024.png"
+        ],
+        "neon_dark": [
+          "png/neon_dark_128.png",
+          "png/neon_dark_192.png",
+          "png/neon_dark_256.png",
+          "png/neon_dark_512.png",
+          "png/neon_dark_1024.png"
+        ]
+      },
+      "platform": {
+        "teams": [
+          "platform/teams_color_192.png",
+          "platform/teams_outline_32.png"
+        ],
+        "power_platform": [
+          "platform/power_icon_32.png",
+          "platform/power_icon_128.png"
+        ],
+        "web": [
+          "platform/web/favicon.ico",
+          "platform/web/favicon-16.png",
+          "platform/web/favicon-32.png",
+          "platform/web/pwa-192.png",
+          "platform/web/pwa-512.png"
+        ],
+        "windows": [
+          "platform/windows_app.ico",
+          "platform/windows/win-16.png",
+          "platform/windows/win-24.png",
+          "platform/windows/win-32.png",
+          "platform/windows/win-48.png",
+          "platform/windows/win-64.png",
+          "platform/windows/win-128.png",
+          "platform/windows/win-256.png"
+        ],
+        "print": [
+          "print/neon_darkchip.pdf",
+          "print/mono_black_white.pdf"
+        ]
+      }
+    },
+    "A5": {
+      "masters": [
+        "neon_transparent.svg",
+        "neon_darkchip.svg",
+        "outline_white.svg",
+        "outline_black.svg"
+      ],
+      "png": {
+        "neon": [
+          "png/neon_16.png",
+          "png/neon_20.png",
+          "png/neon_24.png",
+          "png/neon_32.png",
+          "png/neon_40.png",
+          "png/neon_48.png",
+          "png/neon_64.png",
+          "png/neon_80.png",
+          "png/neon_96.png",
+          "png/neon_128.png",
+          "png/neon_144.png",
+          "png/neon_192.png",
+          "png/neon_256.png",
+          "png/neon_384.png",
+          "png/neon_512.png",
+          "png/neon_768.png",
+          "png/neon_1024.png"
+        ],
+        "outline_white": [
+          "png/outline_white_16.png",
+          "png/outline_white_20.png",
+          "png/outline_white_24.png",
+          "png/outline_white_32.png",
+          "png/outline_white_40.png",
+          "png/outline_white_48.png",
+          "png/outline_white_64.png",
+          "png/outline_white_80.png",
+          "png/outline_white_96.png",
+          "png/outline_white_128.png",
+          "png/outline_white_144.png",
+          "png/outline_white_192.png",
+          "png/outline_white_256.png",
+          "png/outline_white_384.png",
+          "png/outline_white_512.png",
+          "png/outline_white_768.png",
+          "png/outline_white_1024.png"
+        ],
+        "outline_black": [
+          "png/outline_black_16.png",
+          "png/outline_black_20.png",
+          "png/outline_black_24.png",
+          "png/outline_black_32.png",
+          "png/outline_black_40.png",
+          "png/outline_black_48.png",
+          "png/outline_black_64.png",
+          "png/outline_black_80.png",
+          "png/outline_black_96.png",
+          "png/outline_black_128.png",
+          "png/outline_black_144.png",
+          "png/outline_black_192.png",
+          "png/outline_black_256.png",
+          "png/outline_black_384.png",
+          "png/outline_black_512.png",
+          "png/outline_black_768.png",
+          "png/outline_black_1024.png"
+        ],
+        "neon_dark": [
+          "png/neon_dark_128.png",
+          "png/neon_dark_192.png",
+          "png/neon_dark_256.png",
+          "png/neon_dark_512.png",
+          "png/neon_dark_1024.png"
+        ]
+      },
+      "platform": {
+        "teams": [
+          "platform/teams_color_192.png",
+          "platform/teams_outline_32.png"
+        ],
+        "power_platform": [
+          "platform/power_icon_32.png",
+          "platform/power_icon_128.png"
+        ],
+        "web": [
+          "platform/web/favicon.ico",
+          "platform/web/favicon-16.png",
+          "platform/web/favicon-32.png",
+          "platform/web/pwa-192.png",
+          "platform/web/pwa-512.png"
+        ],
+        "windows": [
+          "platform/windows_app.ico",
+          "platform/windows/win-16.png",
+          "platform/windows/win-24.png",
+          "platform/windows/win-32.png",
+          "platform/windows/win-48.png",
+          "platform/windows/win-64.png",
+          "platform/windows/win-128.png",
+          "platform/windows/win-256.png"
+        ],
+        "print": [
+          "print/neon_darkchip.pdf",
+          "print/mono_black_white.pdf"
+        ]
+      }
+    }
+  }
+}

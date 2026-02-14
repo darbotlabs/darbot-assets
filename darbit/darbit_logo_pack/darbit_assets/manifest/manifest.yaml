@@ -1,0 +1,68 @@
+variant:
+  id: darbit
+  display_name: "Darbit"
+  base_version: "DarbitRobotBase_v1"
+  description: "Autonomous machine learning SWE from DarbotLabs (robot-base + Darbot visor)"
+
+style:
+  theme: spectrum
+  visor_enabled: true
+  visor_indicators:
+    shape: squares
+    count: 3
+    colors:
+      - mint
+      - amber
+      - mint
+  visor_badge:
+    enabled: false
+    type: none
+
+hero:
+  name: none
+  concept_keywords:
+    - "autonomous"
+    - "machine learning"
+    - "software engineer"
+    - "agent"
+  geometry:
+    style: filled
+    stroke_weight_token: none
+    node_budget: 0
+  palette:
+    primary: violet
+    secondary: cyan
+    accent: amber
+
+accents:
+  - type: none
+
+exports:
+  formats:
+    - svg
+    - png
+    - ico
+  png_sizes:
+    - 16
+    - 24
+    - 32
+    - 48
+    - 64
+    - 96
+    - 128
+    - 180
+    - 192
+    - 256
+    - 512
+    - 1024
+    - 2048
+  targets:
+    vscode_extension:
+      icon_png: 128
+    swagger_ui:
+      favicon_ico_sizes: [16, 32, 48]
+    pwa:
+      android_sizes: [192, 512]
+      apple_touch: 180
+    social:
+      og_image: [1200, 630]

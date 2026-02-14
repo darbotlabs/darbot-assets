@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+DarbotVariantTemplate_v1.svg
+
+Template master for creating new Darbot variants.
+
+Rules of the road:
+- Keep the base silhouette + visor geometry untouched.
+- Put all variant-specific art in #darbot-hero and #darbot-accents.
+- Keep hero art inside the recommended safe zone so it doesn't collide with the visor or outline.
+- Prefer simple monoline geometry and minimal nodes.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" role="img" aria-label="Darbot Variant Template" shape-rendering="geometricPrecision">
+  <defs>
+    <!-- Darbot spectrum tokens (edit colors here; geometry remains unchanged) -->
+    <linearGradient id="darbotSpectrum" gradientUnits="userSpaceOnUse" x1="350" y1="0" x2="1690" y2="0">
+      <stop offset="0%" stop-color="#FB6685"/>
+      <stop offset="22%" stop-color="#FD964C"/>
+      <stop offset="50%" stop-color="#717DDE"/>
+      <stop offset="78%" stop-color="#33D3F6"/>
+      <stop offset="100%" stop-color="#99E6A3"/>
+    </linearGradient>
+
+    <linearGradient id="visorStroke" gradientUnits="userSpaceOnUse" x1="650" y1="0" x2="1400" y2="0">
+      <stop offset="0%" stop-color="#F0609E"/>
+      <stop offset="55%" stop-color="#717DDE"/>
+      <stop offset="100%" stop-color="#40CEF8"/>
+    </linearGradient>
+
+    <linearGradient id="visorFill" gradientUnits="userSpaceOnUse" x1="700" y1="0" x2="1350" y2="0">
+      <stop offset="0%" stop-color="#1F193A"/>
+      <stop offset="100%" stop-color="#19204F"/>
+    </linearGradient>
+
+    <linearGradient id="indicatorMint" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6CDFC5"/>
+      <stop offset="100%" stop-color="#8BDCD4"/>
+    </linearGradient>
+    <linearGradient id="indicatorAmber" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FCC34C"/>
+      <stop offset="100%" stop-color="#F6D36A"/>
+    </linearGradient>
+
+    <!-- Helper styles (debug overlays are hidden by default) -->
+    <style>
+      /* Toggle by setting display:inline on #debug */
+      #debug { display: none; }
+    </style>
+  </defs>
+
+  <!-- BASE (do not modify geometry) -->
+  <g id="darbot-base">
+    <path id="darbot-outline" d="M 1005.05 175.54 C 1113.84 173.34 1219.34 186.42 1317.70 231.28 C 1378.28 258.90 1436.15 298.59 1475.73 351.20 C 1509.88 396.58 1530.41 451.58 1542.26 507.50 C 1564.13 610.64 1556.48 716.89 1563.02 822.02 C 1569.67 928.73 1590.94 1034.29 1619.79 1136.98 C 1650.04 1244.69 1688.62 1349.23 1737.64 1452.08 C 1750.07 1478.14 1763.16 1504.10 1766.44 1532.42 C 1769.74 1560.88 1763.11 1591.72 1744.13 1610.75 C 1725.20 1629.73 1693.99 1636.96 1667.23 1630.32 C 1638.63 1623.23 1615.11 1600.30 1590.54 1579.68 C 1565.56 1558.72 1539.50 1540.16 1510.66 1537.01 C 1483.21 1534.01 1453.24 1544.98 1431.88 1564.78 C 1388.17 1605.28 1380.50 1682.70 1338.47 1722.45 C 1296.66 1762.00 1220.83 1764.26 1179.37 1722.52 C 1157.25 1700.25 1144.92 1665.46 1125.35 1639.09 C 1107.02 1614.38 1082.34 1597.08 1053.31 1590.43 C 1026.77 1584.35 996.59 1587.17 972.67 1598.85 C 944.12 1612.78 924.47 1639.30 906.07 1667.72 C 887.54 1696.35 870.29 1726.90 843.09 1743.13 C 820.38 1756.68 790.74 1760.24 764.36 1753.32 C 733.47 1745.22 707.06 1722.76 689.34 1695.82 C 672.84 1670.73 663.88 1641.76 649.68 1614.34 C 634.41 1584.87 613.09 1557.18 584.67 1544.90 C 562.20 1535.19 535.29 1535.10 512.57 1544.58 C 482.07 1557.31 459.13 1587.28 430.09 1608.22 C 405.80 1625.73 377.23 1636.92 350.18 1631.56 C 322.00 1625.97 295.46 1602.40 288.33 1575.75 C 282.24 1553.00 290.30 1527.99 298.96 1503.39 C 337.26 1394.56 387.30 1293.84 420.51 1186.67 C 452.11 1084.64 468.46 976.76 481.32 870.53 C 487.74 817.57 493.29 765.02 494.03 711.49 C 494.75 659.72 490.97 607.04 497.44 555.62 C 512.63 434.71 584.42 320.75 685.05 255.73 C 776.87 196.41 892.71 177.82 1005.05 175.54 Z" fill="none" stroke="url(#darbotSpectrum)" stroke-width="54" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g id="darbot-visor">
+      <path id="darbot-visor-shape" d="M 764.94 368.63 C 804.81 365.80 843.27 368.38 881.97 369.28 C 920.83 370.19 959.94 369.42 999.10 369.02 C 1076.03 368.23 1153.13 368.88 1229.86 367.72 C 1249.83 367.42 1269.77 367.00 1289.98 369.01 C 1310.93 371.11 1332.17 375.83 1347.21 388.53 C 1362.78 401.67 1371.72 423.37 1374.48 445.00 C 1376.92 464.14 1374.52 483.23 1374.05 502.20 C 1373.08 541.09 1380.19 579.50 1373.39 618.95 C 1369.57 641.07 1361.39 663.52 1345.44 675.64 C 1330.65 686.88 1309.19 689.26 1288.22 691.19 C 1247.69 694.92 1209.01 696.99 1171.54 688.60 C 1161.23 686.30 1151.02 683.20 1141.72 678.02 C 1130.81 671.93 1121.14 662.97 1110.44 656.59 C 1093.52 646.50 1073.99 642.86 1054.13 640.66 C 1014.27 636.23 973.12 637.61 937.87 656.31 C 918.03 666.83 900.07 682.84 879.82 689.26 C 862.61 694.72 843.74 693.23 823.99 692.97 C 782.08 692.42 736.15 697.35 707.04 672.29 C 691.40 658.83 680.62 636.72 676.80 614.92 C 673.47 595.89 675.44 577.10 676.29 558.06 C 677.19 538.12 676.86 517.90 676.03 497.96 C 675.24 478.90 673.99 460.08 677.26 441.03 C 680.99 419.26 690.63 397.17 706.99 384.81 C 722.44 373.14 743.89 370.13 764.94 368.63 Z" fill="url(#visorFill)" stroke="url(#visorStroke)" stroke-width="44" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <g id="darbot-visor-indicators">
+        <rect id="indicator-1" x="730" y="422" width="75" height="75" rx="14" ry="14" fill="url(#indicatorMint)"/>
+        <rect id="indicator-2" x="820" y="422" width="74" height="75" rx="14" ry="14" fill="url(#indicatorAmber)"/>
+        <rect id="indicator-3" x="909" y="422" width="75" height="75" rx="14" ry="14" fill="url(#indicatorMint)"/>
+      </g>
+
+      <g id="darbot-visor-badge"/>
+    </g>
+  </g>
+
+  <!-- VARIANT ART -->
+  <g id="darbot-hero">
+    <!-- Replace everything in this group with your hero symbol. -->
+
+    <!-- Example placeholder (hidden by default): a simple circle to visualize the safe zone. -->
+    <g id="debug">
+      <circle cx="1024" cy="1230" r="420" fill="none" stroke="#00FF00" stroke-width="6" stroke-dasharray="18 18"/>
+      <rect x="604" y="810" width="840" height="840" fill="none" stroke="#00FF00" stroke-width="4" stroke-dasharray="12 12"/>
+    </g>
+  </g>
+
+  <g id="darbot-accents"/>
+</svg>

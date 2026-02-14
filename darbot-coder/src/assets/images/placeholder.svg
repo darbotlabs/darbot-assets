@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 160">
+  <defs>
+    <style>
+      .a{fill:none;stroke:#00FF66;stroke-width:4;stroke-dasharray:10 8}
+      .t{fill:#00FF66;font-family:monospace;font-size:18px}
+    </style>
+  </defs>
+  <rect x="8" y="8" width="240" height="144" rx="10" class="a"/>
+  <text x="20" y="86" class="t">placeholder</text>
+</svg>

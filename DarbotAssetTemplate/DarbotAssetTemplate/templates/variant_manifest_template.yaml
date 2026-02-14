@@ -1,0 +1,98 @@
+# Darbot variant manifest (template)
+#
+# This file is a repeatable schema that defines WHAT a Darbot variant is,
+# separate from HOW it gets rendered. It is designed so:
+# - The base character is consistent (brand recognition)
+# - The hero element can vary wildly while staying on-brand
+# - Export packs are standardized
+#
+# Copy this file to: assets/darbot/<variant-id>/manifest.yaml
+
+variant:
+  id: darbot-memory          # lowercase kebab-case
+  display_name: "Darbot Memory"
+  base_version: "DarbotBase_v1"
+  description: "Memory agent / long-term context / knowledge store"
+
+style:
+  # One of: spectrum, neon, monochrome, custom
+  theme: spectrum
+
+  # If true, the visor is the default face. (Recommended: true)
+  visor_enabled: true
+
+  # Dot cluster defaults to three slots; choose shape per brand policy.
+  # Recommended moving forward: squares (crisper at icon sizes).
+  visor_indicators:
+    shape: squares           # squares | circles
+    count: 3
+    colors:
+      - mint
+      - amber
+      - mint
+
+  # Optional badge inside visor (e.g., Windows logo).
+  visor_badge:
+    enabled: false
+    type: none              # none | windows | custom
+
+hero:
+  # Hero is the capability-specific symbol in the body area.
+  # Keep it inside the safe zone and make it legible at 32px.
+  name: memory_chip
+  concept_keywords:
+    - "memory"
+    - "storage"
+    - "recall"
+
+  geometry:
+    style: monoline          # monoline | filled | mixed
+    stroke_weight_token: heroStroke
+    node_budget: 80          # soft guideline: fewer nodes is better
+
+  palette:
+    # Reuse Darbot tokens whenever possible for cohesion.
+    primary: mint
+    secondary: violet
+    accent: amber
+
+accents:
+  # Optional extras that still keep the silhouette/visor untouched.
+  - type: none               # none | glitch | sparkles | badge
+
+exports:
+  # Standard export matrix for Darbot variants.
+  formats:
+    - svg
+    - png
+    - webp
+    - avif
+    - ico
+    - icns
+
+  png_sizes:
+    - 16
+    - 24
+    - 32
+    - 48
+    - 64
+    - 96
+    - 128
+    - 180
+    - 192
+    - 256
+    - 512
+    - 1024
+    - 2048
+
+  # Platform-friendly aliases
+  targets:
+    vscode_extension:
+      icon_png: 128
+    swagger_ui:
+      favicon_ico_sizes: [16, 32, 48]
+    pwa:
+      android_sizes: [192, 512]
+      apple_touch: 180
+    social:
+      og_image: [1200, 630]

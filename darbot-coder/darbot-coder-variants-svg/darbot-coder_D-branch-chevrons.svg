@@ -1,0 +1,16 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="glow" filterUnits="userSpaceOnUse">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+
+    <g filter="url(#glow)">
+      <path d="M256,360 C256,220 370,120 512,120 C654,120 768,220 768,360 V650 C768,720 726,768 682,768 C642,768 618,744 592,720 C568,698 544,684 512,684 C480,684 456,698 432,720 C406,744 382,768 342,768 C298,768 256,720 256,650 Z" stroke="#00FF5F" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.8"/>
+      <path d="M256,360 C256,220 370,120 512,120 C654,120 768,220 768,360 V650 C768,720 726,768 682,768 C642,768 618,744 592,720 C568,698 544,684 512,684 C480,684 456,698 432,720 C406,744 382,768 342,768 C298,768 256,720 256,650 Z" stroke="#00FF5F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+    <rect x="322" y="290" width="380" height="170" rx="44" ry="44" fill="rgba(0,0,0,0.0)" stroke="#00FF5F" stroke-width="18"/><rect x="346" y="310" width="22" height="22" rx="6" fill="#00FF5F" opacity="0.35"/><rect x="386" y="310" width="22" height="22" rx="6" fill="#00FF5F" opacity="0.55"/><rect x="426" y="310" width="22" height="22" rx="6" fill="#00FF5F" opacity="0.75"/><line x1="428.4" y1="350" x2="428.4" y2="420" stroke="#00FF5F" stroke-width="10" /><line x1="531.0" y1="370" x2="531.0" y2="400" stroke="#00FF5F" stroke-width="10" opacity="0.6"/><path d="M428.4,450 C488.4,450 471.0,410 531.0,410" stroke="#00FF5F" stroke-width="10" fill="none"/><path d="M428.4,530 C488.4,530 471.0,490 531.0,490" stroke="#00FF5F" stroke-width="10" fill="none" opacity="0.7"/><circle cx="428.4" cy="410" r="12" fill="#00FF5F"/><circle cx="428.4" cy="490" r="12" fill="#00FF5F"/><circle cx="428.4" cy="570" r="12" fill="#00FF5F"/><circle cx="531.0" cy="410" r="12" fill="#00FF5F"/><circle cx="531.0" cy="490" r="12" fill="#00FF5F"/><polyline points="332,610 382,630 332,650" fill="none" stroke="#00FF5F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/><polyline points="402,610 452,630 402,650" fill="none" stroke="#00FF5F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/><rect x="492" y="634" width="90" height="12" rx="6" fill="#00FF5F" opacity="0.9"/><rect x="592" y="624" width="16" height="28" rx="3" fill="#00FF5F" /></svg>

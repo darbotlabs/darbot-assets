@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" role="img" aria-label="darbit logo" shape-rendering="geometricPrecision">
+  <defs>
+    <linearGradient id="visorStroke" gradientUnits="userSpaceOnUse" x1="650" y1="0" x2="1400" y2="0">
+      <stop offset="0%" stop-color="#F0609E" />
+      <stop offset="55%" stop-color="#717DDE" />
+      <stop offset="100%" stop-color="#40CEF8" />
+      </linearGradient>
+    <linearGradient id="visorFill" gradientUnits="userSpaceOnUse" x1="700" y1="0" x2="1350" y2="0">
+      <stop offset="0%" stop-color="#1F193A" />
+      <stop offset="100%" stop-color="#19204F" />
+      </linearGradient>
+    <linearGradient id="indicatorMint" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6CDFC5" />
+      <stop offset="100%" stop-color="#8BDCD4" />
+      </linearGradient>
+    <linearGradient id="indicatorAmber" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FCC34C" />
+      <stop offset="100%" stop-color="#F6D36A" />
+      </linearGradient>
+    <linearGradient id="headFill" gradientUnits="userSpaceOnUse" x1="320" y1="480" x2="1728" y2="1880">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="55%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#A78BFA" />
+      </linearGradient>
+    <linearGradient id="headShadow" gradientUnits="userSpaceOnUse" x1="0" y1="1380" x2="0" y2="1880">
+      <stop offset="0%" stop-color="#031018" stop-opacity="0" />
+      <stop offset="100%" stop-color="#031018" stop-opacity="0.2" />
+      </linearGradient>
+    <radialGradient id="headHighlight" gradientUnits="userSpaceOnUse" cx="1500" cy="560" r="900">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.22" />
+      <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+      </radialGradient>
+    <linearGradient id="panelFill" gradientUnits="userSpaceOnUse" x1="0" y1="560" x2="0" y2="1660">
+      <stop offset="0%" stop-color="#D92A61" />
+      <stop offset="55%" stop-color="#FF2F86" />
+      <stop offset="100%" stop-color="#FF63A8" />
+      </linearGradient>
+    <radialGradient id="panelGlow" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+      </radialGradient>
+    <linearGradient id="antennaStem" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF4E9C" />
+      <stop offset="100%" stop-color="#D92A61" />
+      </linearGradient>
+    <radialGradient id="antennaBall" gradientUnits="userSpaceOnUse" cx="-20" cy="-20" r="180">
+      <stop offset="0%" stop-color="#FF7BB7" />
+      <stop offset="55%" stop-color="#FF2F86" />
+      <stop offset="100%" stop-color="#C91E55" />
+      </radialGradient>
+    <linearGradient id="knobFill" gradientUnits="userSpaceOnUse" x1="674" y1="290" x2="1374" y2="510">
+      <stop offset="0%" stop-color="#1B5E20" />
+      <stop offset="50%" stop-color="#43A047" />
+      <stop offset="100%" stop-color="#9CCC65" />
+      </linearGradient>
+    <radialGradient id="knobHighlight" gradientUnits="userSpaceOnUse" cx="1320" cy="320" r="220">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+      </radialGradient>
+    <linearGradient id="mouthFill" gradientUnits="userSpaceOnUse" x1="864" y1="1340" x2="1184" y2="1520">
+      <stop offset="0%" stop-color="#1B1433" />
+      <stop offset="100%" stop-color="#2A2D62" />
+      </linearGradient>
+    </defs>
+  <g id="darbot-base">
+    <g id="darbit-side-panels">
+      <rect x="180" y="560" width="220" height="1100" rx="110" ry="110" fill="url(#panelFill)" />
+      <rect x="1648" y="560" width="220" height="1100" rx="110" ry="110" fill="url(#panelFill)" />
+      <circle cx="270" cy="820" r="170" fill="url(#panelGlow)" />
+      <circle cx="1758" cy="820" r="170" fill="url(#panelGlow)" />
+      </g>
+    <g id="darbit-antennas" stroke-linecap="round">
+      <line x1="290" y1="560" x2="290" y2="240" stroke="url(#antennaStem)" stroke-width="48" />
+      <line x1="1758" y1="560" x2="1758" y2="240" stroke="url(#antennaStem)" stroke-width="48" />
+      <circle cx="290" cy="220" r="120" fill="url(#antennaBall)" />
+      <circle cx="1758" cy="220" r="120" fill="url(#antennaBall)" />
+      </g>
+    <g id="darbit-head">
+      <rect x="320" y="480" width="1408" height="1400" rx="330" ry="330" fill="url(#headFill)" />
+      <rect x="320" y="480" width="1408" height="1400" rx="330" ry="330" fill="url(#headHighlight)" />
+      <rect x="320" y="480" width="1408" height="1400" rx="330" ry="330" fill="url(#headShadow)" />
+      </g>
+    <g id="darbit-knob">
+      <rect x="674" y="290" width="700" height="220" rx="110" ry="110" fill="url(#knobFill)" />
+      <circle cx="1290" cy="330" r="140" fill="url(#knobHighlight)" />
+      </g>
+    <g id="darbit-mouth">
+      <rect x="864" y="1340" width="320" height="180" rx="90" ry="90" fill="url(#mouthFill)" />
+      </g>
+    </g>
+  <g id="darbot-visor" transform="translate(-835.778 -52.531) scale(1.811184)">
+    <path id="darbot-visor-shape" d="M 764.94 368.63 C 804.81 365.80 843.27 368.38 881.97 369.28 C 920.83 370.19 959.94 369.42 999.10 369.02 C 1076.03 368.23 1153.13 368.88 1229.86 367.72 C 1249.83 367.42 1269.77 367.00 1289.98 369.01 C 1310.93 371.11 1332.17 375.83 1347.21 388.53 C 1362.78 401.67 1371.72 423.37 1374.48 445.00 C 1376.92 464.14 1374.52 483.23 1374.05 502.20 C 1373.08 541.09 1380.19 579.50 1373.39 618.95 C 1369.57 641.07 1361.39 663.52 1345.44 675.64 C 1330.65 686.88 1309.19 689.26 1288.22 691.19 C 1247.69 694.92 1209.01 696.99 1171.54 688.60 C 1161.23 686.30 1151.02 683.20 1141.72 678.02 C 1130.81 671.93 1121.14 662.97 1110.44 656.59 C 1093.52 646.50 1073.99 642.86 1054.13 640.66 C 1014.27 636.23 973.12 637.61 937.87 656.31 C 918.03 666.83 900.07 682.84 879.82 689.26 C 862.61 694.72 843.74 693.23 823.99 692.97 C 782.08 692.42 736.15 697.35 707.04 672.29 C 691.40 658.83 680.62 636.72 676.80 614.92 C 673.47 595.89 675.44 577.10 676.29 558.06 C 677.19 538.12 676.86 517.90 676.03 497.96 C 675.24 478.90 673.99 460.08 677.26 441.03 C 680.99 419.26 690.63 397.17 706.99 384.81 C 722.44 373.14 743.89 370.13 764.94 368.63 Z" fill="url(#visorFill)" stroke="url(#visorStroke)" stroke-width="44" stroke-linecap="round" stroke-linejoin="round" />
+    <g id="darbot-visor-indicators">
+      <rect id="indicator-1" x="730" y="422" width="75" height="75" rx="14" ry="14" fill="url(#indicatorMint)" />
+      <rect id="indicator-2" x="820" y="422" width="74" height="75" rx="14" ry="14" fill="url(#indicatorAmber)" />
+      <rect id="indicator-3" x="909" y="422" width="75" height="75" rx="14" ry="14" fill="url(#indicatorMint)" />
+      </g>
+    <g id="darbot-visor-badge" />
+    </g>
+  <g id="darbot-hero" />
+  <g id="darbot-accents" />
+  </svg>

@@ -1,0 +1,16 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="glow" filterUnits="userSpaceOnUse">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+
+    <g filter="url(#glow)">
+      <path d="M256,360 C256,220 370,120 512,120 C654,120 768,220 768,360 V650 C768,720 726,768 682,768 C642,768 618,744 592,720 C568,698 544,684 512,684 C480,684 456,698 432,720 C406,744 382,768 342,768 C298,768 256,720 256,650 Z" stroke="#00FF5F" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.8"/>
+      <path d="M256,360 C256,220 370,120 512,120 C654,120 768,220 768,360 V650 C768,720 726,768 682,768 C642,768 618,744 592,720 C568,698 544,684 512,684 C480,684 456,698 432,720 C406,744 382,768 342,768 C298,768 256,720 256,650 Z" stroke="#00FF5F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+    <rect x="322" y="290" width="380" height="170" rx="44" ry="44" fill="rgba(0,0,0,0.0)" stroke="#00FF5F" stroke-width="18"/><rect x="346" y="310" width="22" height="22" rx="6" fill="#00FF5F" opacity="0.35"/><rect x="386" y="310" width="22" height="22" rx="6" fill="#00FF5F" opacity="0.55"/><rect x="426" y="310" width="22" height="22" rx="6" fill="#00FF5F" opacity="0.75"/><polygon points="362,360 382,370 362,380" fill="#00FF5F" opacity="0.9"/><rect x="398" y="360" width="220" height="12" rx="6" fill="#00FF5F" opacity="0.45"/><rect x="612" y="360" width="16" height="20" rx="3" fill="#00FF5F" /><polygon points="362,406 382,416 362,426" fill="#00FF5F" opacity="0.9"/><rect x="398" y="406" width="160" height="12" rx="6" fill="#00FF5F" opacity="0.35"/><polygon points="362,452 382,462 362,472" fill="#00FF5F" opacity="0.9"/><rect x="398" y="452" width="100" height="12" rx="6" fill="#00FF5F" opacity="0.25"/><polyline points="392,580 342,620 392,660" fill="none" stroke="#00FF5F" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/><polyline points="632,580 682,620 632,660" fill="none" stroke="#00FF5F" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/><line x1="500" y1="568" x2="524" y2="672" stroke="#00FF5F" stroke-width="18" stroke-linecap="round"/></svg>

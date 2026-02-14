@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7.199999999999999" result="g"/>
+      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .line { fill: none; stroke: #00FF66; stroke-width: 40; stroke-linecap: round; stroke-linejoin: round; filter: url(#glow);}
+      .line2 { fill: none; stroke: #00FF66; stroke-width: 28.799999999999997; stroke-linecap: round; stroke-linejoin: round; filter: url(#glow);}
+      .rect { fill: none; stroke: #00FF66; stroke-width: 40; rx: 28.0; ry: 28.0; filter: url(#glow);}
+    </style>
+  </defs>
+
+  <!-- Body outline: dome top, vertical sides, triple-hump bottom -->
+  <path class="line" d="
+    M 190 340
+    Q 512 140 834 340
+    L 834 590
+    C 812 585 790 705 720 705
+    C 650 705 620 620 560 620
+    C 502 620 472 705 402 705
+    C 332 705 300 585 278 590
+    L 278 340
+    Z" />
+
+  <!-- Closed eyes -->
+  <path class="line2" d="M 330 420 L 470 420" />
+  <path class="line2" d="M 554 420 L 694 420" />
+
+  <!-- CLI window -->
+  <rect x="380" y="520" width="284" height="196" class="rect"/>
+
+  <!-- '>' caret -->
+  <path class="line2" d="M 450 610 L 500 560 M 450 610 L 500 660" />
+
+  <!-- underscore -->
+  <path class="line2" d="M 560 660 L 640 660" />
+</svg>
